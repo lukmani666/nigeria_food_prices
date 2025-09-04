@@ -111,7 +111,7 @@ class TimeSeriesAnalyzer:
 
         return df_features
 
-class PriceForestModel:
+class PriceForecastModel:
     """Advance price forecasting model with multiple algorithms"""
     def __init__(self, model_type: str = 'gradient_boosting'):
         self.model_type = model_type
@@ -196,7 +196,7 @@ class PriceForestModel:
 
                 self.performance_metrics['feature_importance'] = feature_importance
             self.is_fitted = True
-            logger.info(f'Model training complete. Test MAE: {self.performance_metrics['test_mae']:.2f}')
+            logger.info(f"Model training complete. Test MAE: {self.performance_metrics['test_mae']:.2f}")
 
             return {
                 'performance_metrics': self.performance_metrics,

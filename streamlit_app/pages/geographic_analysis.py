@@ -308,7 +308,7 @@ def main():
                         aspect="auto",
                         title="Market Price Correlation Matrix",
                         color_continuous_scale="RdBu",
-                        zmin=-1, zmax=1
+                        zmin=-1, zmax=1,
                     )
                     fig.update_layout(height=500)
                     st.plotly_chart(fig, use_container_width=True)
@@ -482,6 +482,9 @@ def main():
                 st.info(f"**Least Volatile**\n{least_volatile}")
         else:
             st.error('Unable to calculate price disparities. No data available for the selected commodity.')
+    
+    st.markdown('---')
+    st.caption('Built with ❤️ - All rights reserved Lukman Olamide Ademola')
 
 if __name__ == "__main__":
     main()
