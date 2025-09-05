@@ -940,7 +940,7 @@ def main():
                         st.info('Try adjusting your data filters or selecting a different model type.')
     
     st.markdown('---')
-    st.caption('Built with ❤️ - All rights reserved Lukman Olamide Ademola')
+    st.caption('Built with ❤️ - All rights reserved © Lukman Olamide Ademola')
 
 if __name__ == "__main__":
     main()

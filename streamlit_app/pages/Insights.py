@@ -292,7 +292,7 @@ def main():
             st.download_button('Download Insight Excel', data=output, file_name='Nigeria_food_Insights.xlsx', mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
     
     st.markdown('---')
-    st.caption('Built with ❤️ - All rights reserved Lukman Olamide Ademola')
+    st.caption('Built with ❤️ - All rights reserved © Lukman Olamide Ademola')
 
 if __name__ == "__main__":
     main()

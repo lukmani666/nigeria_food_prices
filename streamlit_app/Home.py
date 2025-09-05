@@ -395,6 +395,9 @@ def main():
         
         4. **Explore**: Navigate through different pages for detailed analysis
         """)
+    
+    st.markdown('---')
+    st.caption('Built with ❤️ - All rights reserved © Lukman Olamide Ademola')
 
 if __name__ == "__main__":
     main()

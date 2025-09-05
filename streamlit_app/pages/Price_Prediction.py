@@ -142,7 +142,7 @@ def main():
     st.plotly_chart(market_heatmap(df), use_container_width=True)
 
     st.markdown('---')
-    st.caption('Built with ❤️ - All rights reserved Lukman Olamide Ademola')
+    st.caption('Built with ❤️ - All rights reserved © Lukman Olamide Ademola')
 
 if __name__ == "__main__":
     main()

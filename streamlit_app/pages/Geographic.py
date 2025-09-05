@@ -484,7 +484,7 @@ def main():
             st.error('Unable to calculate price disparities. No data available for the selected commodity.')
     
     st.markdown('---')
-    st.caption('Built with ❤️ - All rights reserved Lukman Olamide Ademola')
+    st.caption('Built with ❤️ - All rights reserved © Lukman Olamide Ademola')
 
 if __name__ == "__main__":
     main()
